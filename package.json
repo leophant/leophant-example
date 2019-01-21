@@ -1,0 +1,31 @@
+{
+  "name": "leophant-example",
+  "version": "0.0.7",
+  "description": "Leophant example",
+  "license": "MIT",
+  "author": "onwd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leophant/leophant-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leophant/leophant-example/issues"
+  },
+  "homepage": "https://github.com/leophant/leophant-example#readme",
+  "keywords": [
+    "leophant",
+    "orm",
+    "javascript",
+    "database",
+    "node",
+    "mysql",
+    "postgresql"
+  ],
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server"
+  },
+  "dependencies": {
+    "leophant": "0.0.7"
+  }
+}
