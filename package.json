@@ -1,6 +1,6 @@
 {
   "name": "leophant-example",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Leophant example",
   "license": "MIT",
   "author": "onwd",
@@ -26,8 +26,8 @@
     "start": "node ./src/server"
   },
   "dependencies": {
-    "leophant": "0.0.7",
-    "leophant-mysql": "0.0.7",
-    "leophant-postgresql": "0.0.7"
+    "leophant": "0.0.8",
+    "leophant-mysql": "0.0.8",
+    "leophant-postgresql": "0.0.8"
   }
 }
