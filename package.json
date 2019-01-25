@@ -26,6 +26,8 @@
     "start": "node ./src/server"
   },
   "dependencies": {
-    "leophant": "0.0.7"
+    "leophant": "0.0.7",
+    "leophant-mysql": "0.0.7",
+    "leophant-postgresql": "0.0.7"
   }
 }
