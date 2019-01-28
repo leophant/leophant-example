@@ -1,9 +1,8 @@
 const MySQLConnector      = require('leophant-mysql');
 const PostgreSQLConnector = require('leophant-postgresql');
 
-module.exports = [
-  {
-    name: 'db1',
+module.exports = {
+  db1: {
     connector: MySQLConnector,
     host: 'localhost',
     port: 5432,
@@ -11,8 +10,7 @@ module.exports = [
     username: 'username',
     password: 'password'
   },
-  {
-    name: 'db2',
+  db2: {
     connector: PostgreSQLConnector,
     host: 'localhost',
     port: 5432,
@@ -20,4 +18,4 @@ module.exports = [
     username: 'username',
     password: 'password'
   }
-];
+};
